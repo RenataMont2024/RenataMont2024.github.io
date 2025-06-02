@@ -338,3 +338,22 @@ text-align: center;
     padding-bottom: 40px;
   }
 }
+
+@media (max-width: 700px) and (min-width: 490px) {
+  /* Стили кои важат само од 700px до 490px ширина */
+
+  .header-container {
+    height: 160px;
+  }
+
+  .header-right {
+    gap: 15px;
+    font-size: 14px;
+  }
+  .header-center{
+    display: none;
+  }
+
+  .logo {
+width: 30%;  }
+}
