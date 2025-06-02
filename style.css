@@ -336,6 +336,7 @@ text-align: center;
   .header-right{
     justify-content: center;
     padding-bottom: 40px;
+    color: white;
   }
 }
 
@@ -349,6 +350,8 @@ text-align: center;
   .header-right {
     gap: 15px;
     font-size: 14px;
+    color: white;
+
   }
   .header-center{
     display: none;
