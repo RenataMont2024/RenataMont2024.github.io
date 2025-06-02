@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }).then(response => {
           if (response.ok) {
             // Success
-            formStatus.textContent = "Thank you for your message!";
+            formStatus.textContent = "Благодариме што не контактиравте!";
             formStatus.style.color = 'green';
             contactForm.reset(); // Clear the form
             setTimeout(() => { // Clear message after a delay
