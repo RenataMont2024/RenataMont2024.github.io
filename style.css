@@ -314,3 +314,27 @@ text-align: center;
      display: flex;
     justify-content: center;
   }
+
+
+
+
+@media (max-width: 400px) {
+  .header-container {
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+  }
+  .logo{
+    padding-bottom: 50px;
+    margin-bottom: -140px;
+    margin-top: -50px;
+  }
+  .header-center{
+    display: none;
+  }
+  .header-right{
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+}
