@@ -318,7 +318,7 @@ text-align: center;
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   .header-container {
     height: 100px;
     flex-direction: column;
